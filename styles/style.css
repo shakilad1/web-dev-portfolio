@@ -1,0 +1,90 @@
+
+
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.dark-2{color: rgb(71, 71, 71);
+    
+}
+/* shared styles */
+.text-primary{
+   color:  rgb(253, 110, 10);
+}
+.header{ background-image: url(../images/developer.png),url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position: top left,bottom right;}
+/* nav styles */
+nav{display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 50px 150px;}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.list {list-style: none;
+display: flex;
+align-items: center;
+gap: 50px;}
+.list a{text-decoration: none;
+font-size: 20px;
+
+}
+
+.btn{border-radius: 5px;
+
+    background: rgb(253, 110, 10);
+/* Rectangle 1 */
+
+
+width: 150px;
+height: 64px;
+left: 1220px;
+right: -1220px;
+top: 50px;
+bottom: -50px;
+color: rgb(255, 255, 255);
+font-family:  "Work Sans", serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+/* banner styles */
+.banner{display: flex;
+justify-content: space-between;
+margin: 0 35px 0 140px;}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+font-family:  "Work Sans", serif;
+font-size: 85px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banneer-des{
+    color: rgb(117, 117, 117);
+font-family: "Work Sans", serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-profile-pic{
+    width: 584px;
+}
