@@ -43,12 +43,10 @@ font-size: 20px;
 /* Rectangle 1 */
 
 
-width: 150px;
+width: 200px;
 height: 64px;
-left: 1220px;
-right: -1220px;
-top: 50px;
-bottom: -50px;
+
+
 color: rgb(255, 255, 255);
 font-family:  "Work Sans", serif;
 font-size: 20px;
